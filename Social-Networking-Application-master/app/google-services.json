@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "156607500158",
+    "firebase_url": "https://strathittfb.firebaseio.com",
+    "project_id": "strathittfb",
+    "storage_bucket": "strathittfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156607500158:android:35eef7fc7d0c6b0c",
+        "android_client_info": {
+          "package_name": "com.demo.csc214.socialmediaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156607500158-ikjf60rfdl41u85j0o0n01k6t4rr98qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demo.csc214.socialmediaapp",
+            "certificate_hash": "1b922cd4cc6146983a5dee62015ceddac820a7b1"
+          }
+        },
+        {
+          "client_id": "156607500158-ddaccm419a8vdlmaop2gis4nvuu3geqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4t_9D1Y-9qlh_Zt8ytLAVEjBd-yK5CVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156607500158-ddaccm419a8vdlmaop2gis4nvuu3geqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

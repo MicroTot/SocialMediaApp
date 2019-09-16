@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news_feed"
+            android:icon="@drawable/ic_post_list"
+            android:title="News Feed" />
+        <item
+            android:id="@+id/nav_list_users"
+            android:icon="@drawable/ic_user_list"
+            android:title="Find Users" />
+        <item
+            android:id="@+id/nav_edit_profile"
+            android:icon="@drawable/ic_edit_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_create_post"
+            android:icon="@drawable/ic_write_post"
+            android:title="Create Post" />
+    </group>
+
+
+
+</menu>

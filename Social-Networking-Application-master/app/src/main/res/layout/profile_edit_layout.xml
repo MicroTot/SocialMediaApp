@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingLeft="30dp">
+
+                <ImageButton
+                    android:id="@+id/image_submit_profile"
+                    android:layout_width="150sp"
+                    android:layout_height="200sp"
+                    android:background="@drawable/standard_pic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/click_on_image_to_change"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="40dp"
+                android:paddingTop="15dp"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/first_name_submit_profile"
+                    android:hint="@string/first_name"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/last_name_submit_profile"
+                    android:hint="@string/last_name"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/birthdate_name_submit_profile"
+                    android:textSize="13dp"
+                    android:hint="@string/birthdate"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hometown_name_submit_profile"
+                    android:hint="@string/hometown"/>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="@string/bio_here"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:maxLines="6"
+            android:minLines="6"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/bio_submit_profile_text"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit_profile_button_activity"
+            android:text="Save Profile"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

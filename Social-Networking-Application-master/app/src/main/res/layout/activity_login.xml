@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo.csc214.socialmediaapp.view.LoginActivity"
+    android:background="#FFA"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/username_login_edit_text"
+            android:hint="@string/username"
+            android:width="@dimen/username_field_width"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/password_login_edit_text"
+            android:hint="@string/password"
+            android:width="@dimen/username_field_width"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_account"
+            android:id="@+id/login_button_login_activity"/>
+    </LinearLayout>
+
+</RelativeLayout>
